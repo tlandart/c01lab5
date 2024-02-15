@@ -34,4 +34,5 @@
                   mongodb-version: ${{ matrix.mongodb-version }}
 
               - run: npm i
-              - run: npm start & npm test
+              - run: nohup npm start & exit 0
+              - run: npm test
