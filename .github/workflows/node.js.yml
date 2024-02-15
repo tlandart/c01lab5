@@ -37,5 +37,5 @@
 
               -name: Run backend and tests
                 run: |
-                  npm start
+                  npm start &&
                   npm test
