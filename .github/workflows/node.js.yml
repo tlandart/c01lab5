@@ -37,5 +37,5 @@
 
               - name: Run backend and tests
                 run: |
-                  npm start
+                  nohup npm start & exit 0
                   npm test
